@@ -67,7 +67,7 @@ p{
 button {
   position: absolute;
   top: 83%; /* Adjust this value */
-  left: 33%; /* Adjust this value */
+  left: 33%; 
   height: 50px;
   width: 130px;
   border-radius: 10px;
@@ -123,7 +123,7 @@ button:hover {
   }
 
   .nav {
-    padding:  1px 30px;
+    padding: 1px 30px;
     height: 30%;
     width: 100%;
     display: flex;
