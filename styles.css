@@ -162,7 +162,7 @@ button:hover {
   }
 
   .input {
-    top: 50%; /* Adjust the top position for smaller screens */
+    top: 60%; /* Adjust the top position for smaller screens */
     left: 10%; /* Adjust the left position for smaller screens */
     max-width: 100%; /* Make the input full width on smaller screens */
     font-size: 5vw;
