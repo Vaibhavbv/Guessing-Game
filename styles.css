@@ -116,3 +116,49 @@ button:hover {
 .input:focus {
   box-shadow: 0 0 0 .15vw skyblue;
 }
+
+@media screen and (max-width: 680px) {
+  .main {
+    background-size: auto; /* Change background-size property for smaller screens */
+  }
+
+  .nav {
+    padding:  1px 30px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav img{
+    height: 20vh;
+    width: 20vh;
+  }
+
+  p {
+    left: 50%; /* Center the paragraph horizontally on smaller screens */
+    transform: translateX(-60%);
+  }
+
+  .card{
+    width: 80%; /* Adjust the width for smaller screens */
+    left: 10%; /* Adjust the left position for smaller screens */
+  }
+  .card2 {
+    width: 100%; /* Adjust the width for smaller screens */
+    left: 10%; /* Adjust the left position for smaller screens */
+  }
+
+  button {
+    top: 82%; /* Adjust the top position for smaller screens */
+    left: 30%; /* Adjust the left position for smaller screens */
+  }
+
+  .input {
+    top: 50%; /* Adjust the top position for smaller screens */
+    left: 10%; /* Adjust the left position for smaller screens */
+    max-width: 100%; /* Make the input full width on smaller screens */
+    font-size: 5vw;
+  }
+}
+
